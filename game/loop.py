@@ -1,11 +1,3 @@
-"""
-game/loop.py - the pure game tick.
-
-Takes dt and a list of ChordEvents. Draws nothing, plays nothing, knows
-nothing about cameras. This is what makes the VR swap a one-line change,
-and what lets you unit-test the whole game with fake events.
-"""
-
 from typing import List
 
 import config
