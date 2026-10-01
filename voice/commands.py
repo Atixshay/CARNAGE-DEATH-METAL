@@ -1,13 +1,3 @@
-"""
-voice/commands.py - transcript -> action name.
-
-Keep this a plain keyword table. Speech recognition is already the flaky
-part of the pipeline; do not add a second uncertain layer on top of it.
-
-Add a command:
-  1. one row in PHRASES
-  2. one branch in main.py's handle_voice()
-"""
 
 PHRASES = {
     "start":     ["start", "begin", "play", "let's go", "lets go", "rock"],

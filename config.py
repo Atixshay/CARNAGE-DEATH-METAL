@@ -1,5 +1,3 @@
-
-
 # ---------------------------------------------------------------- window
 WINDOW_W, WINDOW_H = 1280, 720
 FPS_CAP = 60
@@ -35,7 +33,7 @@ CHORD_MAP = {
     "THUMB": "C",
 }
 
-# chord -> midi-ish note frequencies used by the built-in synth
+
 CHORD_FREQS = {
     "E": [82.41, 123.47, 164.81, 207.65, 246.94, 329.63],
     "A": [110.00, 164.81, 220.00, 277.18, 329.63],

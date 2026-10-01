@@ -1,17 +1,3 @@
-"""
-render/hologram.py - Tier 3 pyramid view.
-
-Renders the enemy four times on a black field, each rotated 90 degrees,
-so that a transparent pyramid sitting on a flat screen shows a floating
-figure. Runs in a second window; entirely optional, entirely isolated.
-
-Turn on with config.ENABLE_HOLOGRAM = True, or press H at runtime.
-
-Physical build: cut 4 trapezoids from clear acrylic (base 60mm, top 10mm,
-height 36mm for a phone; scale up for a tablet), tape into a truncated
-pyramid, stand it in the middle of the screen, kill the room lights.
-"""
-
 import pygame
 
 import config

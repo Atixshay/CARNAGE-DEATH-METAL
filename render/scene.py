@@ -1,10 +1,3 @@
-"""
-render/scene.py - draws one whole frame from GameState.
-
-Owns the fonts, the background, the effect list and the webcam preview.
-Reads the game; never changes it.
-"""
-
 import math
 import random
 

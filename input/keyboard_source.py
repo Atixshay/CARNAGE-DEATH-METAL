@@ -1,13 +1,3 @@
-"""
-input/keyboard_source.py - THE SAFETY NET.
-
-Two jobs:
-  1. Person B builds and tests the whole game with no camera at all.
-  2. At the expo, if the lighting kills tracking, press F2 and keep demoing.
-
-Keys:  1..5 pick the chord,  DOWN arrow = down-strum,  UP arrow = up-strum.
-"""
-
 import time
 from typing import List, Optional
 

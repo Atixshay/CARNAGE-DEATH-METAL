@@ -1,11 +1,3 @@
-"""
-render/comic_fx.py - the comic-book layer: impact words, speed lines,
-screen shake, halftone paper, panel borders.
-
-All of it is procedural. No sprite files needed, though you can drop PNGs
-into assets/sprites/ later and swap them in without touching anything else.
-"""
-
 import math
 import random
 

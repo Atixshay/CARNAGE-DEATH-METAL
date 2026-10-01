@@ -1,13 +1,3 @@
-"""
-gestures/strum.py - right hand vertical motion -> "DOWN" / "UP" / None.
-
-The three things that make this feel right, in order of importance:
-  1. smoothing  - raw landmark y is noisy; jitter alone would fire a strum
-  2. cooldown   - one physical arm swing must produce exactly one event
-  3. re-arm     - after a DOWN the hand must slow down again before the next
-                  strum can fire, so a shaking hand does not machine-gun
-"""
-
 from typing import Optional, Tuple
 
 import config

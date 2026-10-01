@@ -1,5 +1,3 @@
-"""render/hud.py - HP bars, chord label, combo trail, FPS, debug overlay."""
-
 import pygame
 
 import config

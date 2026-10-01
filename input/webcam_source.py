@@ -1,10 +1,3 @@
-"""
-input/webcam_source.py - MediaPipe Hands implementation of InputSource.
-
-Runs capture + inference on a background thread so the game loop never
-stalls waiting for the camera. The loop always gets the newest frame.
-"""
-
 import threading
 import time
 from typing import Optional

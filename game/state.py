@@ -1,5 +1,3 @@
-"""game/state.py - the four states the game can be in, plus the event bus."""
-
 from dataclasses import dataclass, field
 from enum import Enum, auto
 from typing import Any, Dict, List
@@ -16,7 +14,7 @@ class Phase(Enum):
 class FxEvent:
     """Something the renderer and the audio layer should react to.
 
-    game/ never draws or plays anything itself - it only says what happened.
+    game/ never draws or plays anything itself it only says what happened. :)
     """
     kind: str                       # "hit", "combo", "player_hurt", "miss", "telegraph"
     data: Dict[str, Any] = field(default_factory=dict)

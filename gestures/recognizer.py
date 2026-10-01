@@ -1,11 +1,3 @@
-"""
-gestures/recognizer.py - InputFrame -> ChordEvent.
-
-This is the only place that knows both halves. It holds the stability
-buffer for the chord (so a single bad frame cannot change your chord
-mid-strum) and owns the StrumDetector.
-"""
-
 from typing import List, Optional
 
 import config

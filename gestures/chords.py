@@ -1,11 +1,3 @@
-"""
-gestures/chords.py - left hand pose -> chord name.
-
-Deliberately simple: work out which fingers are extended, then look the
-pattern up in a table. No machine learning, no training data, no surprises
-on expo day. Add a chord by adding one row to PATTERNS.
-"""
-
 import math
 from typing import Optional
 
