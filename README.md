@@ -154,10 +154,15 @@ screen, kill the room lights.
 
 ------------------------------------------------------------------------ *thanks for reading*
 ## SOCIALS
+
 -> instagram - atixshh
+
 -> x(formly twitter) - encorins
+
 -> github - Atixshay
+
 -> discord - w.encorins
+
 ## CONTRIBUTORS
 -> SUBH KUMAR SINGH (NO SOCIALS :( ))
 ## ACHIVEMENTS
