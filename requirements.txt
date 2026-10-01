@@ -1,0 +1,14 @@
+mediapipe==0.10.14
+opencv-python
+numpy
+pygame-ce
+
+# --- optional: the Jarvis voice assistant -------------------------------
+# The game runs without these; voice simply stays off.
+SpeechRecognition
+pyttsx3
+# PyAudio is the awkward one:
+#   Windows : pip install pipwin && pipwin install pyaudio
+#   macOS   : brew install portaudio && pip install pyaudio
+#   Linux   : sudo apt install portaudio19-dev && pip install pyaudio
+PyAudio
