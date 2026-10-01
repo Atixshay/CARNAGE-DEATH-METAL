@@ -1,16 +1,3 @@
-"""
-audio/sounds.py - chord playback.
-
-Two paths:
-  * assets/sounds/<CHORD>.wav exists  -> use your real guitar sample
-  * it does not                       -> synthesise a plucked chord with
-                                         Karplus-Strong so the game makes
-                                         noise on day one with no downloads
-
-Every sample is built or loaded once at startup. Never touch the disk in
-the game loop.
-"""
-
 import os
 from typing import Dict
 
