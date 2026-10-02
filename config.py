@@ -79,5 +79,5 @@ WHITE = (255, 255, 255)
 
 # ---------------------------------------------------------------- toggles
 ENABLE_VOICE = True           # Jarvis assistant thread
-ENABLE_HOLOGRAM = False       # second window, 4-way mirrored
+ENABLE_HOLOGRAM = True       # second window, 4-way mirrored
 VOICE_WAKE_WORD = "jarvis"
