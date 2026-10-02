@@ -65,9 +65,6 @@ Strum harder for more damage.
 | `[` `]` | Lower / raise the strum threshold **while playing** |
 | ESC | Quit |
 
-`[` and `]` are the expo-day lifesaver. If the hall's lighting makes strums fire
-too easily or not at all, tune it live with F1 open and watch the velocity number.
-
 ---
 
 ## Voice assistant (Jarvis)
@@ -120,14 +117,6 @@ audio/sounds.py          synthesised or sampled chords
 voice/                   Jarvis
 tools/test_logic.py      headless tests
 ```
-
-Three rules that keep it honest:
-
-1. `game/` never imports from `input/` or `render/`. If you need `import mediapipe`
-   inside `game/`, the design has broken.
-2. Every tunable number lives in `config.py`.
-3. `main.py` stays short: pick a source, build the game, run the loop.
-
 ---
 
 ## Hologram (optional)
